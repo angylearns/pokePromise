@@ -2,9 +2,13 @@
 
 I messed up real good in a thechnical test so I knew I had to go over some things.
 
+## Layout versions
 - ### Version 1 - 24/11 
-![Version 1 - 24/11](web_looks/look_24.11.png)
+    ![Version 1 - 24/11](web_looks/look_24.11.png)
+- ### Version 2 - 26/11
+    ![Version 2 - 26/11](web_looks/look_26.11.png)
 
+## What's pokePromise?
 
 PokePromise is a simple web application that uses the [PokéAPI](https://pokeapi.co/docs/v2) to fetch Pokémon data. The project allows users to search for Pokémon by their name or ID, and it displays relevant information about the selected Pokémon, such as its image, height, weight, types, and moves.
 
@@ -40,13 +44,13 @@ Internet connection to fetch data from the PokéAPI.
 
 ## Known Issues
 
-The "Random" and "Clean" buttons are currently non-functional. These features will be implemented in future updates.
+The "Random" button is currently non-functional. These features will be implemented in future updates.
 Error handling for invalid inputs could be improved.
 
 ## To-Do List
 
 - [] Implement the Random Button to fetch and display four random Pokémon.
-- [] Implement the Clean Button to clear the results section.
+- [x] Implement the Clean Button to clear the results section.
 - [] Enhance error handling for invalid Pokémon names or IDs.
 - [] Add animations or additional styling to improve the user interface.
 
