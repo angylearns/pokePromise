@@ -1,11 +1,46 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
-    margin: 10px 20px;
-    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    box-sizing: content-box;
     background-color: lightyellow;
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.headerTitle {
+    font-family: 'Pokemon Solid', sans-serif;
+    color: #ffff00;
+    text-shadow: 1px 1px 0 #0000ff, -1px -1px 0 #0000ff, 1px -1px 0 #0000ff, -1px 1px 0 #0000ff;
+    margin: 0;
+}
+
+.containerImage {
+    height: 60%;
+}
+
+.containerImage .headerImage {
+    height: 100%;
+}
+
+main {
+    padding: 3%;
+    min-height: 70%;
+    height: fit-content;
 }
 
 #sectionRes h2 {
     text-transform: capitalize;
+    font-family: "Press Start 2P", system-ui;
 }
 
 #sectionRes ul {
@@ -15,4 +50,12 @@ body {
 
 #sectionRes ul li {
     margin-bottom: 5px;
+}
+
+footer {
+    background-color: aquamarine;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
