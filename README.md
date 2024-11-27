@@ -1,6 +1,6 @@
 # pokePromise
 
-I messed up real good in a thechnical test so I knew I had to go over some things.
+I messed up real good in a technical test so I knew I had to go over some things.
 
 ## Layout versions
 - ### Version 1 - 24/11 
